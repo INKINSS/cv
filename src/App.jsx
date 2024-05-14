@@ -1,9 +1,12 @@
 import './App.css'
+import NavBar from './components/NavBar'
 
 function App() {
 
   return (
-    <h1 className='text-green-500'>corriendo</h1>
+    <main>
+      <NavBar />
+    </main>
   )
 }
 
