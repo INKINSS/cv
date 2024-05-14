@@ -3,6 +3,7 @@ import Banner from './components/Banner'
 import MiMundo from './components/MiMundo'
 import NavBar from './components/NavBar'
 import Proyects from './components/Proyects'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Banner />
         <MiMundo />
         <Proyects />
+        <Skills />
       </body>
     </main>
   )
