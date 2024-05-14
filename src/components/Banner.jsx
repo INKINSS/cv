@@ -26,10 +26,10 @@ const Banner = () => {
                 </ReactTyped>
                 <span className="text-sm lg:text-[1em] inline-block mt-2 italic text-customBlackLight">la creatividad se encuentra en cada linea de codigo</span>
                 <section className='flex gap-2 mt-5'>
-                    <a href='https://www.linkedin.com/in/mart%C3%ADn-samuel-p%C3%A9rez-montenero-747690251/' target='blank'><FaLinkedin className='fill-customBlack hover:fill-customBlackLight transition-all duration-200' size={'2em'} /></a>
-                    <a href='https://wa.me/50256216845?text=Hola!%20Me%20gustaría%20hablar%20contigo' target='blank'><FaWhatsappSquare className='fill-customBlack hover:fill-customBlackLight transition-all duration-200' size={'2em'} /></a>
-                    <a href='https://github.com/INKINSS' target='blank'><FaGithubSquare className='fill-customBlack hover:fill-customBlackLight transition-all duration-200' size={'2em'} /></a>
-                    <a href='https://www.facebook.com/profile.php?id=100001496362178&locale=es_LA' target='blank'><FaSquareFacebook className='fill-customBlack hover:fill-customBlackLight transition-all duration-200' size={'2em'} /></a>
+                    <a href={import.meta.env.VITE_LINKEDIN} target='blank'><FaLinkedin className='fill-customBlack hover:fill-customBlackLight transition-all duration-200' size={'2em'} /></a>
+                    <a href={import.meta.env.VITE_WHATTSAPP} target='blank'><FaWhatsappSquare className='fill-customBlack hover:fill-customBlackLight transition-all duration-200' size={'2em'} /></a>
+                    <a href={import.meta.env.VITE_GITHUB} target='blank'><FaGithubSquare className='fill-customBlack hover:fill-customBlackLight transition-all duration-200' size={'2em'} /></a>
+                    <a href={import.meta.env.VITE_FACEBOOK} target='blank'><FaSquareFacebook className='fill-customBlack hover:fill-customBlackLight transition-all duration-200' size={'2em'} /></a>
                 </section>
             </section>
         </Fade>
