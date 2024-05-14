@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "title": "Clon de Spotify",
+    "title": "Clon de Spotify Desktop",
     "description": "Clon de la aplicacion web Spotify en base a su pagina principal hecha para vista tamaño desktop unicamente, utilizando frameworks de diseño UI, CSS y más",
     "scripts": {
       "framework": "React",
