@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Clon de X",
     "description": "Clon de la red social X en base a su pagina principal hecha de manera responsive para cualquier dispositivo utilizando frameworks de diseño UI, CSS y más",
     "scripts": {
@@ -11,6 +12,7 @@
     "urlPrewiew": "https://twitter-wheat-two.vercel.app/"
   },
   {
+    "id": 2,
     "title": "Clon de Spotify",
     "description": "Clon de la aplicacion web Spotify en base a su pagina principal hecha para vista tamaño desktop unicamente, utilizando frameworks de diseño UI, CSS y más",
     "scripts": {
@@ -22,6 +24,7 @@
     "urlPrewiew": "https://spotify-smoky-ten.vercel.app/"
   },
   {
+    "id": 3,
     "title": "Portfolio",
     "description": "Este mismo portfolio esta hecho de manera responsive para cualquier dispositivo, con un diseño minimalista y elegante, hecho a codigo limpio y con ayuda de TailwindCSS",
     "scripts": {
@@ -32,10 +35,11 @@
     "urlPrewiew": "https://spotify-smoky-ten.vercel.app/"
   },
   {
+    "id": 4,
     "title": "Diseño figma de reproductor de musica",
     "description": "Un diseño elegante para una aplicacion web de streaming de musica hecho con la herramienta figma, otorgando una vista para dispositivos moviles y de escritorio con diferentes apartados haciendo el diseño completo",
     "scripts": {},
-    "urlGitHub": "https://github.com/INKINSS/Spotify",
-    "urlPrewiew": "https://spotify-smoky-ten.vercel.app/"
+    "urlGitHub": "https://github.com/INKINSS/appMusic-Desing/tree/main",
+    "urlPrewiew": "https://www.figma.com/community/file/1372083410748549349/appmusic-desing"
   }
 ]
