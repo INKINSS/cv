@@ -4,4 +4,4 @@ Gracias por tomarte el tiempo de pasar por mi portfolio, espero que lo que esté
 
 Currently, two official plugins are available:
 
-https://github.com/INKINSS/cv/blob/master/Captura%20de%20pantalla%202024-05-14%20085732.png
+![](https://github.com/INKINSS/cv/blob/master/Captura%20de%20pantalla%202024-05-14%20085732.png)
