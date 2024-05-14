@@ -20,7 +20,8 @@ const Proyects = () => {
                                 </div>
                                 <div className='flex flex-col gap-y-3 lg:flex lg:flex-row lg:gap-4'>
                                     <a className='border px-3 py-2 hover:text-customBlackLight hover:border-customBlackLight transition-all duration-100' target='blank' href={item.urlGitHub}>GitHub</a>
-                                    <a className='border px-3 py-2 hover:text-customBlackLight hover:border-customBlackLight transition-all duration-100' target='blank' href={item.urlPrewiew}>Preview</a>
+                                    {item.urlPrewiew ? <a className='border px-3 py-2 hover:text-customBlackLight hover:border-customBlackLight transition-all duration-100' target='blank' href={item.urlPrewiew}>Preview</a> : ''
+                                    }
                                 </div>
                             </div>
                         </section>
