@@ -1,4 +1,5 @@
 import './App.css'
+import BackInitial from './components/BackInitial'
 import Banner from './components/Banner'
 import MiMundo from './components/MiMundo'
 import NavBar from './components/NavBar'
@@ -10,12 +11,13 @@ function App() {
   return (
     <main className='relative bg-customWhite'>
       <NavBar />
-      <body className='absolute translate-y-16 -z-10 ssm:px-6 lg:translate-y-40 md:px-40'>
+      <article className='absolute translate-y-16 -z-10 ssm:px-6 lg:translate-y-40 md:px-40'>
         <Banner />
         <MiMundo />
         <Proyects />
         <Skills />
-      </body>
+        <BackInitial />
+      </article>
     </main>
   )
 }
