@@ -11,7 +11,7 @@ function App() {
   return (
     <main className='relative bg-customWhite'>
       <NavBar />
-      <article className='absolute translate-y-16 -z-10 ssm:px-6 lg:translate-y-40 md:px-40'>
+      <article className='absolute translate-y-24 -z-10 ssm:px-9 lg:translate-y-40 md:px-40'>
         <Banner />
         <MiMundo />
         <Proyects />
