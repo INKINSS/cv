@@ -10,21 +10,22 @@ const Banner = () => {
         <Fade delay={.5} cascade damping={.5}>
             <section className="-z-10" id='banner'>
                 <h2><ReactTyped className="font-light text-xl lg:text-[1.8em] md:text-[1.5em] tracking-[.05em] text-customBlackLight" strings={["Martin Samuel Perez"]} typeSpeed={40} /></h2>
-
-                <ReactTyped
-                    className="font-bold text-2xl lg:text-[2.5em] md:text-[2em] lg:mt-2 tracking-[.05em] text-customBlack block"
-                    strings={[
-                        "Estudiante FrontEnd",
-                        "Estudiante de React",
-                        "Estudiante DiseñoUI",
-                    ]}
-                    typeSpeed={80}
-                    backSpeed={50}
-                    attr="placeholder"
-                    loop
-                >
-                    <h1><input type="text" className='bg-customWhiteLight placeholder:text-customBlack' /></h1>
-                </ReactTyped>
+                <h1>
+                    <ReactTyped
+                        className="font-bold text-2xl lg:text-[2.5em] md:text-[2em] lg:mt-2 tracking-[.05em] text-customBlack block"
+                        strings={[
+                            "Estudiante FrontEnd",
+                            "Estudiante de React",
+                            "Estudiante DiseñoUI",
+                        ]}
+                        typeSpeed={80}
+                        backSpeed={50}
+                        attr="placeholder"
+                        loop
+                    >
+                        <input type="text" className='bg-customWhiteLight placeholder:text-customBlack' />
+                    </ReactTyped>
+                </h1>
                 <span className="text-sm lg:text-[1em] inline-block mt-2 italic text-customBlackLight">la creatividad se encuentra en cada linea de codigo</span>
                 <section className='flex gap-2 mt-5'>
                     <a href={import.meta.env.VITE_LINKEDIN} target='blank'><FaLinkedin className='fill-customBlack hover:fill-customBlackLight transition-all duration-200' size={'2em'} /></a>
