@@ -28,6 +28,10 @@ const NavBar = () => {
                     <li className="pt-5"><a className="hover:text-customBlackLight transition duration-200 text-customBlack" href="#mimundo" onClick={(event) => { handleMenuItemClick("mimundo", event) }}>mi mundo</a></li>
                     <li className="pt-5"><a className="hover:text-customBlackLight transition duration-200 text-customBlack" href="#proyects" onClick={(event) => { handleMenuItemClick("proyects", event) }}>proyectos</a></li>
                     <li className="pt-5"><a className="hover:text-customBlackLight transition duration-200 text-customBlack" href="#skills" onClick={(event) => { handleMenuItemClick("skills", event) }}>habilidades</a></li>
+                    <li className="pt-5"><a className="hover:text-customBlackLight transition duration-200 text-customBlack" href="https://onedrive.live.com/?cid=9DAC776708F80A5D&id=9DAC776708F80A5D%2110652&parId=root&o=OneUp" target="blank">curriculum</a></li>
+
+
+
                 </ul>
             </nav>
             <RiArrowLeftSLine className={` ${menu ? 'rotate-180 fixed' : ' absolute rotate-0'} mx-6 my-4 transition-all duration-300 ease-in-out lg:hidden left-0 fill-customBlack`} size={'2.1em'} onClick={handleClick} />
