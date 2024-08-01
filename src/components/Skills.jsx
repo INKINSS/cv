@@ -2,7 +2,7 @@ import { Fade } from 'react-awesome-reveal'
 
 const Skills = () => {
 
-    const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'TailwindCSS', 'Librerías React', 'Git', 'GitHub', 'FrameworksUI', 'Diseño']
+    const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'TailwindCSS', 'MongoDB', 'Librerías React', 'Git', 'GitHub', 'FrameworksUI', 'Diseño']
 
     return (
         <Fade damping={.5} delay={100}>
