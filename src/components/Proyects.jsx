@@ -17,6 +17,8 @@ const Proyects = () => {
                                     <div className='font-light text-[1em]'>{item.scripts.framework}</div>
                                     <div className='font-light text-[1em]'>{item.scripts.FrameworkCSS}</div>
                                     <div className='font-light text-[1em]'>{item.scripts.FrameworkUI}</div>
+                                    <div className='font-light text-[1em]'>{item.scripts.database}</div>
+                                    <div className='font-light text-[1em]'>{item.scripts.backend}</div>
                                 </div>
                                 <div className='flex flex-col gap-y-3 lg:flex lg:flex-row lg:gap-4'>
                                     <a className='border px-3 py-2 hover:text-customBlackLight hover:border-customBlackLight transition-all duration-100' target='blank' href={item.urlGitHub}>GitHub</a>

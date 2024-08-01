@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "title": "llcomment",
+    "description": "Un sitio web dedicado a la publicación y lectura de artículos relacionados con el desarrollo web. Puedes buscar por temas de interés o simplemente compartir tus conocimientos con el mundo, hecho con diferentes librerías de react",
+    "scripts": {
+      "framework": "React",
+      "FrameworkCSS": "TailwindCSS",
+      "FrameworkUI": "MaterialUI",
+      "database": "MongoDB",
+      "backend": "NodeJS, Express"
+    },
+    "urlGitHub": "https://github.com/INKINSS/blog-react",
+    "urlPrewiew": "https://blog-react-yl4c.onrender.com/"
+  },
+  {
+    "id": 2,
     "title": "Clon de X",
     "description": "Clon de la red social X en base a su pagina principal hecha de manera responsive para cualquier dispositivo utilizando frameworks de diseño UI, CSS y más",
     "scripts": {
@@ -12,7 +26,7 @@
     "urlPrewiew": "https://twitter-wheat-two.vercel.app/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Clon de Spotify Desktop",
     "description": "Clon de la aplicacion web Spotify en base a su pagina principal hecha para vista tamaño desktop unicamente, utilizando frameworks de diseño UI, CSS y más",
     "scripts": {
@@ -24,7 +38,7 @@
     "urlPrewiew": "https://spotify-smoky-ten.vercel.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Portfolio",
     "description": "Este mismo portfolio esta hecho de manera responsive para cualquier dispositivo, con un diseño minimalista y elegante, hecho a codigo limpio y con ayuda de TailwindCSS",
     "scripts": {
@@ -34,7 +48,7 @@
     "urlGitHub": "https://github.com/INKINSS/cv/tree/master"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Diseño figma de reproductor de musica",
     "description": "Un diseño elegante para una aplicacion web de streaming de musica hecho con la herramienta figma, otorgando una vista para dispositivos moviles y de escritorio con diferentes apartados haciendo el diseño completo",
     "scripts": {},
