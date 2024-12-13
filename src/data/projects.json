@@ -4,14 +4,14 @@
     "title": "llcomment",
     "description": "Un sitio web dedicado a la publicación y lectura de artículos relacionados con el desarrollo web. Puedes buscar por temas de interés o simplemente compartir tus conocimientos con el mundo, hecho con diferentes librerías de react",
     "scripts": {
-      "framework": "React",
+      "framework": "Astro | React",
       "FrameworkCSS": "TailwindCSS",
-      "FrameworkUI": "MaterialUI",
-      "database": "MongoDB",
-      "backend": "NodeJS, Express"
+      "FrameworkUI": "Shadcn",
+      "database": "Database Realtime",
+      "backend": "Firebase"
     },
-    "urlGitHub": "https://github.com/INKINSS/blog-react",
-    "urlPrewiew": "https://blog-react-yl4c.onrender.com/"
+    "urlGitHub": "https://github.com/INKINSS/llcomment",
+    "urlPrewiew": "https://llcomment.vercel.app/"
   },
   {
     "id": 2,
@@ -53,6 +53,6 @@
     "description": "Un diseño elegante para una aplicacion web de streaming de musica hecho con la herramienta figma, otorgando una vista para dispositivos moviles y de escritorio con diferentes apartados haciendo el diseño completo",
     "scripts": {},
     "urlGitHub": "https://github.com/INKINSS/appMusic-Desing/tree/main",
-    "urlPrewiew": "https://www.figma.com/community/file/1372083410748549349/appmusic-desing"
+    "urlPrewiew": "https://www.figma.com/community/file/1449450723489793042/desingmusic"
   }
 ]
